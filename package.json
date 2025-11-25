@@ -1,0 +1,30 @@
+{
+  "name": "kpz",
+  "version": "0.0.0",
+  "description": "for studying",
+  "keywords": [
+    "kpz"
+  ],
+  "homepage": "https://github.com/johuirmbegytm/kpz#readme",
+  "bugs": {
+    "url": "https://github.com/johuirmbegytm/kpz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johuirmbegytm/kpz.git"
+  },
+  "license": "ISC",
+  "author": "Arthur Voloshko",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "demo": "tsx src/demo.ts",
+    "prepare": "husky"
+  }
+}
