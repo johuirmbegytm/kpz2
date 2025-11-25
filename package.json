@@ -1,6 +1,6 @@
 {
   "name": "kpz",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "for studying",
   "keywords": [
     "kpz"
@@ -15,9 +15,8 @@
   },
   "license": "ISC",
   "author": "Arthur Voloshko",
-  "type": "commonjs",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "eslint . --ext .ts",
