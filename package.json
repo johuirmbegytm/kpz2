@@ -26,5 +26,8 @@
     "typecheck": "tsc --noEmit",
     "demo": "tsx src/demo.ts",
     "prepare": "husky"
+  },
+  "dependencies": {
+    "zod": "^4.1.13"
   }
 }
